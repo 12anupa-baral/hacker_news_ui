@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker News</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Newsreader:opsz@6..72&family=Open+Sans:wght@400;600;700&family=Roboto+Slab:wght@600&family=Roboto:wght@100;300&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+        <h1>Hacker News UI</h1>
+        <div>
+            <input class="search" type="text" placeholder="search"> <i id="search" class="fas fa-search"></i></input>
+        </div>
+    </header>
+    <div id="pagination">
+        <button onclick="loadPage(currentPage - 1)" disabled id="prevButton">Previous</button>
+        <span id="currentPage">Page 1</span>
+        <button onclick="loadPage(currentPage + 1)" id="nextButton">Next</button>
+    </div>
+    <main id="app"></main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
