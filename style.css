@@ -50,6 +50,7 @@ header {
     padding: 1rem;
     color: #ffffff;
     border-radius: 8px;
+    cursor: pointer;
 
 
 }
@@ -84,6 +85,11 @@ main {
     background-color: #FAF6F0;
     border: 1px solid #ddd;
     border-radius: 8px;
+}
+
+.story:hover {
+    background-color: #d1cfcc;
+    cursor: pointer;
 }
 
 .comments {
