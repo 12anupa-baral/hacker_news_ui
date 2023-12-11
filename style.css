@@ -9,13 +9,16 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
+.conainer {
+    width: 50%;
+    margin-left: 25%;
+}
+
 header {
     background-color: #092635;
     padding: 1rem;
     text-align: center;
     color: #fff;
-    width: 50%;
-    margin-left: 25%;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
@@ -40,8 +43,6 @@ header {
     display: flex;
     justify-content: space-between;
     margin-top: 2%;
-    margin-left: 25%;
-    margin-right: 25%;
 }
 
 #prevButton,
@@ -70,7 +71,6 @@ button {
 }
 
 main {
-    max-width: 800px;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
