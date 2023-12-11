@@ -15,7 +15,7 @@ header {
     text-align: center;
     color: #fff;
     width: 50%;
-    margin-left: 25%;
+    margin: 0 auto;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
@@ -30,8 +30,9 @@ header {
 }
 
 #app {
-    width: 48%;
-    margin-left: 25%;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
     background-color: #092635;
     padding: 20px;
 }
