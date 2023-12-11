@@ -14,7 +14,7 @@ header {
     padding: 1rem;
     text-align: center;
     color: #fff;
-    width: 48%;
+    width: 50%;
     margin-left: 25%;
     border-radius: 8px;
     display: flex;
@@ -30,7 +30,7 @@ header {
 }
 
 #app {
-    width: 50%;
+    width: 48%;
     margin-left: 25%;
     background-color: #092635;
     padding: 20px;
