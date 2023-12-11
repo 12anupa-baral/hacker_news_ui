@@ -1,6 +1,9 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    margin: 0;
-    padding: 0;
     background-color: #f9f9f9;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Newsreader', serif;
@@ -9,10 +12,6 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
-.conainer {
-    width: 50%;
-    margin-left: 25%;
-}
 
 header {
     background-color: #092635;
